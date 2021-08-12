@@ -5,3 +5,6 @@ Also note the following technologies were used to make this:
   -HTML
   -CSS
   -Vanilla JS
+  - George Washington
+- John Adams
+- Thomas Jefferson
