@@ -66,6 +66,8 @@ function description(parent,info){
     document.getElementById("3").textContent = "Lowest Temperature: "+ info.forecast.forecastday[0].day.mintemp_c +"°C / " +info.forecast.forecastday[0].day.mintemp_f.toString()+"°F";
     document.getElementById("4").textContent = "Total rainfall: "+ info.forecast.forecastday[0].day.totalprecip_in +"in / "+ info.forecast.forecastday[0].day.totalprecip_mm +"mm";
     document.getElementById("5").textContent = "UV index: "+ info.forecast.forecastday[0].day.uv;
+    document.getElementById("6").textContent = "Current Temperature: "+ info.forecast.forecastday[0].hour[hour].temp_c +"°C / " +info.forecast.forecastday[0].hour[hour].temp_f+"°F";
+
 }
 
 var csslink = document.createElement("link");     
